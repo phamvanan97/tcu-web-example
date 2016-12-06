@@ -1,0 +1,94 @@
+1. Th? ðo?n vãn P - paragraphs
+
+Th? p ðý?c dùng ð? tr?nh bày m?t ðo?n vãn
+
+Ví d? : 
+<p>Th? p dùng ð? tr?nh bày m?t ðo?n vãn, text</p>
+<p>Ðây là m?t ðo?n vãn ng?n</p>
+
+2. Th? headings h1, h2... h6
+
+Th? headings bao g?m 6 th?, t? h1 ð?n h6, s?p x?p theo th? t? gi?m d?n c? ch?, th? h1 có c? ch? l?n nh?t sau ðó là h2 ... và nh? nh?t là h6. Th? headings thý?ng ðý?c dùng ð? tr?nh bày tiêu ð? các chuyên m?c, bài vi?t...
+
+Ví d? :
+<h1>Th? h1 to nh?t</h1>
+<h2>Th? h2 to nh? (^^)</h2>
+<h3>Th? h3 nh? hõn h1 và h2</h3>
+<h6>Th? h6 nh? nh?t</h6>
+
+3. Th? h?nh ?nh img
+
+Th? img ðý?c dùng ð? chèn h?nh ?nh vào website c?a b?n
+
+Cú pháp :
+<img src=''ðý?ng d?n ð?n file ?nh" width="ð? r?ng" height="chi?u cao" alt="tiêu ð? ?nh" />
+
+Ví d? : 
+<img src="images/hoc-php.jpg" width="300" height="250" alt="H?c thi?t k? web, l?p tr?nh web" />
+
+4. Th? embed - chèn nh?c, video vào website
+
+Th? embed dùng ð? chèn nh?c, video và website
+
+Cú pháp : 
+<embed src="link file nh?c" width="ð? r?ng" height="ð? cao" autostart='true ho?c false" loop="1"></embed>
+
+Ví d? :
+<embed src="music/neu-la-anh.mp3" width="200" height="100" autostart="true" loop="1"></embed>
+
++ Autostart = true : T? ð?ng play khi duy?t web
++ Loop = 1 : L?p l?i khi chõi h?t bài
+
+5. Th? ð?nh d?ng list, ul và ol
+
+Th? ul và ol ðý?c dùng ð? tr?nh bày vãn b?n theo d?ng list, danh sách có th? t?
+
+Ví d? th? ul : Có nhi?u ð?nh d?ng cho th? ul nhý theo d?ng circle, disc ...
+
+
+
+Khi hi?n th?  :
+Html css
+PHP cãn b?n
+PHP nâng cao
+PHP Framework
+
+V? th? ol : Tr?nh bày vãn b?n theo th? t? s? tãng d?n 1,2, 3... ho?c theo th? t? a - z ...
+
+
+
+Khi hi?n th? :
+Html css
+PHP cãn b?n
+PHP nâng cao
+PHP Framework
+
+6. Th? liên k?t (html links)  <a>
+
+Th? liên k?t trong html là th? <a>, ðý?c dùng ð? liên k?t các web page l?i v?i nhau
+
+Cú pháp :
+<a href="ðý?ng d?n ð?n trang web" target="thu?c tính">Tiêu ð?</a>
+
+Ví d? : 
+<a href="htpps://google.com" target="_blank">T?m ki?m</a>
+
++ href : ðý?ng d?n ð?n webpage
++ target : thu?c tính này s? quy ð?nh liên k?t s? ðý?c m? ra ? ðâu: _self (trang hi?n t?i), _blank (c?a s? m?i) ....
+
+
+7. Các th? html khác
+
+- Th? xu?ng d?ng <br />  : Th? <br /> ðý?c dùng ð? xu?ng d?ng trong m?t ðo?n vãn
+
+Ví d? : H?c thi?t k? website t?i <br /> PHPANDMYSQL.NET
+
+- Th? in ð?m <b> : Th? <b> dùng ð? in ð?m m?t ðo?n vãn b?n
+
+Ví d? : <b>H?c l?p tr?nh PHP ? ðâu t?t?</b>
+
+- Th? in nghiêng <i> : Dùng ð? ðánh d?u in nghiêng m?t ðo?n vãn
+
+Ví d? : <i>Có nên h?c l?p tr?nh không?</i>
+
+

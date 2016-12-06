@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>bài tập về HTML</title>
+</head>
+<body background="http://khcn.cinet.vn/UserFiles/Image/Gallery/Photo/6247_1920x12000609152231.jpg">
+<th>
+<center><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSzwZcexlxuJP1jnhrDVTVHP03zH2IW3-Plo-aI5g89j7W0Y6Ju" width="600"/></center>
+</th>
+<table width="600" border="5" align="center">
+	<td width="160px" border="5"align="center" valign="top"bgcolor="LightSlateGray">
+			<b><p>Main menu</p> 
+			<hr></hr>
+			<p><a href="https://www.facebook.com/Xiumin97" target="_blank">Facebook</a></p>
+			<p><a href="http://mp3.zing.vn/" target="_blank">Zing</a></p>
+			<p><a href="https://www.youtube.com/" target="_blank">youtobe</a></p>
+		</nav>
+	</td> 
+	<td align="left"bgcolor="AliceBlue">
+		<h2 align="center"> ĐĂNG KÝ</h2>
+		<form name="submit" method="post">
+	<ul>
+		<li><b><p> Fullname:<input type="text" name="fname" size="30" placeholder="NHẬP HỌ TÊN" ></b>
+		<li><b><p> Account:&nbsp;&nbsp;<input type="text" name="acc" size="30" placeholder="NHẬP TÀI KHOẢN"></b>
+		<li><b><p> Password:<input type="password" name="pass" size="30" placeholder="NHẬP MẬT KHẨU"></b>
+		<li><b><p> Nhập Lại:&nbsp;<input type="password" name="pass" size="30" placeholder="NHẬP LẠI MK"></b>
+		<li><b><p> Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="mail" size="30" placeholder="NHẬP EMAIL"></b>
+		<li><b><p> Giới Tính:</b>
+		<label>
+		<input type="radio" name="gioitinh" value="NAM" id="0"/>nam
+		</label>
+		<label>
+		<input type="radio" name="gioitinh" value="NỮ" id="1"/>nữ
+		</label>
+		<label>
+			<input type="radio" name="gioitinh" value="khác" id="2"/>khác
+		</label>
+		</p>
+		<li><b><p> Ngày Sinh:</b>
+		<br>
+		<p><i>ngày</i>
+			<select name="day"><option value="day"></option>
+				<option value="ngày">01</option><option value="ngày">02</option><option value="ngày">03</option>
+				<option value="ngày">04</option><option value="ngày">05</option><option value="ngày">06</option>
+				<option value="ngày">07</option><option value="ngày">08</option><option value="ngày">09</option>
+				<option value="ngày">10</option><option value="ngày">11</option><option value="ngày">12</option>
+				<option value="ngày">13</option><option value="ngày">14</option><option value="ngày">15</option>
+				<option value="ngày">16</option><option value="ngày">17</option><option value="ngày">18</option>
+				<option value="ngày">19</option><option value="ngày">20</option><option value="ngày">21</option>
+				<option value="ngày">22</option><option value="ngày">23</option><option value="ngày">24</option>
+				<option value="ngày">25</option><option value="ngày">26</option><option value="ngày">27</option>
+				<option value="ngày">28</option><option value="ngày">29</option><option value="ngày">30</option>
+				<option value="ngày">31</option>
+			</select>
+			<i>tháng</i>
+			<select name="month"><option value="tháng"></option>
+				<option value="tháng"> 01</option><option value="tháng"> 02</option><option value="tháng"> 3</option>
+				<option value="tháng"> 4</option><option value="tháng"> 5</option><option value="tháng"> 6</option>
+				<option value="tháng"> 7</option><option value="tháng"> 8</option><option value="tháng"> 9</option>
+				<option value="tháng"> 10</option><option value="tháng">11</option><option value="tháng">12</option>
+			</select>
+			<i>năm<input type="text" name="Năm" size="3" placeholder="Năm"></i>
+		</p>
+		<label>
+			<li><b><input type="checkbox" name="đồng ý" value="Đồng ý" id="3"/>Đồng ý
+		</label></b></li>
+	</ul>
+		<p><input type="reset" name="reset" value="reset">&nbsp;&nbsp;
+		<input type="submit" name="submit" value="submit">
+		</form>
+	</td>
+ <tr>
+    <td colspan="2" border="5"align="center" bgcolor="SlateBlue">
+		<b><p> admin:PHẠM VĂN AN</b>
+		<i><p> dh thông tin liên lạc</i>
+	</td>
+ </tr>
+
+</table>
+</body>
+</html>
